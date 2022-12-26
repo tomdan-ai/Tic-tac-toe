@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>X and O game!</title>
+	<link rel="icon" href="Thumbnail.png" type="image/gif" />
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	<!-- CSS file Included -->
+	<link rel="stylesheet"
+		type="text/css" href="tic.css">
+
+	<!-- JavaScript file included -->
+	<script src="toe.js"></script>
+	
+</head>
+
+
+
+<body>
+	<div id="main">
+		<h1>TIC TAC TOE</h1>
+
+		<!-- Game Instructions -->
+		<p id="ins">Game starts by just Tap on
+			box<br><br>First Player starts as
+			<b>Player X</b><br>And<br>Second
+			Player as <b>Player 0</b>
+		</p>
+
+
+
+
+		<br><br>
+		<!-- 3*3 grid of Boxes -->
+		<input type="text" id="b1" class="box" onclick=
+			"myfunc_3(); myfunc();" readonly>
+
+		<input type="text" id="b2" class="box" onclick=
+			"myfunc_4(); myfunc();" readonly>
+
+		<input type="text" id="b3" class="box" onclick=
+			"myfunc_5(); myfunc();" readonly>
+		<br><br>
+
+		<input type="text" id="b4" class="box" onclick=
+			"myfunc_6(); myfunc();" readonly>
+			
+		<input type="text" id="b5" class="box" onclick=
+			"myfunc_7(); myfunc();" readonly>
+
+		<input type="text" id="b6" class="box" onclick=
+			"myfunc_8(); myfunc();" readonly>
+		<br><br>
+
+		<input type="text" id="b7" class="box" onclick=
+			"myfunc_9(); myfunc();" readonly>
+
+		<input type="text" id="b8" class="box" onclick=
+			"myfunc_10();myfunc();" readonly>
+
+		<input type="text" id="b9" class="box" onclick=
+			"myfunc_11();myfunc();" readonly>
+
+		<!-- Grid end here -->
+		<br><br><br>
+		<!-- Button to reset game -->
+		<button id="but" onclick="myfunc_2()">
+			RESET
+		</button>
+
+		<br><br>
+		<!-- Space to show player turn -->
+		<p id="print"></p>
+
+
+
+
+	</div>
+	<footer>
+        <span id="first">
+		<p>
+		  This website is a JavaScript project by Tom. ENJOY!
+		</p>
+		<P>Contact the<a href="https://github.com/tomdan-ai" target="_blank"
+			>Developer <i class="fab fa-free-code-camp"></i
+		  ></a>
+		<p>
+		  &copy;
+		  <a href="https://web.facebook.com/profile.php?id=100080447175232" target="_blank"
+			>MINE<i class="fab fa-free-code-camp"></i
+		  ></a>
+		</p>
+    </span>
+        <span id="copy">&copy; 
+            <a href="https://github.com/tomdan-ai" target="_blank">Github</a> 
+            <a href="https://web.facebook.com/profile.php?id=100080447175232" target="_blank"
+			>Facebook</span>
+	  </footer>
+</body>
+
+</html>
